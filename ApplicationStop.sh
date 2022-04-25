@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp/CodeDeployExample
 
-/home/ec2-user/nginx_stop.sh
+/bin/systemctl stop nginx.service
 
 echo "The ApplicationStop lifecycle event successfully completed." > application-stop.txt
