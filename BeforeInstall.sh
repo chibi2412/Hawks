@@ -7,3 +7,5 @@ then
 fi
 
 mkdir -p $FOLDER
+
+echo "The ApplicationStop lifecycle event successfully completed.Nginx Stop" > BeforeInstall-application-stop.txt
