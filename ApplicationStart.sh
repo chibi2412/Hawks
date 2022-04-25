@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp/CodeDeployExample
 
-/home/ec2-user/nginx_start.sh
+/bin/systemctl start nginx.service
 
 echo "The ApplicationStart lifecycle event successfully completed." > application-start.txt
