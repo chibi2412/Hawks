@@ -8,10 +8,11 @@ hooks:
     - location: scripts/BeforeInstall.sh
       timeout: 10
       runas: root
+  ApplicationStart:
     - location: scripts/ApplicationStart.sh
       timeout: 10
       runas: root
-  ApplicationStop:
-    - location: scripts/ApplicationStop.sh
+  AfterInstall:
+    - location: scripts/AfterInstall.sh
       timeout: 10
       runas: root
