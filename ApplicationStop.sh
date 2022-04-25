@@ -2,4 +2,4 @@
 cd /tmp/CodeDeployExample
 sudo service nginx stop
 
-echo "The ApplicationStart deployment lifecycle event successfully completed." > application-start.txt
+echo "The ApplicationStop lifecycle event successfully completed." > application-stop.txt
